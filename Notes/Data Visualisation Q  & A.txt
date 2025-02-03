@@ -1,0 +1,95 @@
+What is the purpose of histogram in data visualisation?
+Histograms are used to visualize the distribution of a dataset. They help to:   
+Understand the shape of the data: Identify skewness, kurtosis, and outliers.   
+Estimate central tendency: Approximate mean, median, and mode.   
+Identify data quality issues: Spot gaps, clusters, or unexpected patterns.   
+Compare distributions: Analyze similarities and differences between datasets.   
+Histograms divide data into intervals (bins) and plot the frequency of data points within each bin.   
+
+
+How does a KDE plot differ from histogram in terms of visualizing distribution?
+While both KDE plots and histograms serve the purpose of visualizing data distribution, they employ distinct approaches that offer unique advantages and considerations.
+Histograms
+Discrete Bins: Data is divided into discrete bins, and the frequency or count of data points falling within each bin is represented by the height of the bars.   
+Bin Width Sensitivity: The choice of bin width can significantly influence the histogram's appearance, potentially leading to different interpretations of the data.   
+Discontinuous: Histograms inherently produce a discontinuous representation of the data, with abrupt transitions between bins.
+KDE Plots
+Smooth Curves: KDE plots utilize a continuous curve to estimate the probability density function of the data, providing a smoother and more refined representation of the distribution.   
+Kernel Function: The shape of the curve is determined by a kernel function, often a Gaussian (normal) distribution.   
+Bandwidth: The bandwidth of the kernel controls the smoothness of the curve. A smaller bandwidth results in a more detailed but potentially noisy estimate, while a larger bandwidth produces a smoother but potentially less informative estimate.
+Histograms are generally preferred when:
+The data is relatively small.
+The underlying distribution is expected to be complex or multimodal.
+A focus on specific bin ranges is desired.
+KDE plots are often favored when:
+The data is large.
+A smooth and continuous representation of the distribution is preferred.
+The underlying distribution is expected to be relatively simple.
+
+What is the significance of boxplot in statistical analysis?
+Key Significance of Box Plots:
+Data Distribution:
+Central Tendency: The box represents the interquartile range (IQR), containing the middle 50% of the data. The line within the box indicates the median, providing a clear visual of the dataset's central value.   
+Spread: The length of the box visually depicts the IQR, giving an idea of the data's variability. Longer boxes suggest greater spread.   
+Skewness: The position of the median within the box can hint at skewness. A median closer to the top or bottom of the box indicates potential skewness.   
+Outliers: Whiskers extend from the box to the minimum and maximum values within a certain range (often 1.5 times the IQR). Data points beyond the whiskers are considered potential outliers, warranting further investigation.   
+Data Comparison:
+Group Comparisons: Box plots are particularly effective for comparing multiple datasets side-by-side. They allow for quick visual assessment of differences in central tendency, spread, and potential outliers across groups.   
+Exploratory Data Analysis (EDA):
+Initial Insights: Box plots provide a rapid overview of a dataset, helping identify potential issues or interesting patterns that might warrant further analysis
+
+When should you use a scatter plot over a line plot?
+Use a scatter plot for:
+Relationship between two variables: Correlation, patterns, outliers.   
+Non-linear relationships: Identifying complex trends.   
+Use a line plot for:
+Trends over time: Changes, fluctuations.
+Comparing multiple time series:
+
+What information can a pair plot or ( scatterplot Matrix ) provide about a data set?
+A pair plot, also known as a scatterplot matrix, provides a comprehensive overview of the relationships between all pairs of variables in a dataset. Here's what it can reveal:   
+Trends: Linear or nonlinear relationships between variables, suggesting potential predictability.   
+Clusters: Groups of data points with similar characteristics, hinting at subpopulations within the dataset.   
+Outliers: Data points that deviate significantly from the overall trend, which could be indicative of errors or interesting anomalies.   
+Correlations: The strength and direction of relationships between variables.   
+Distributions: The distribution of individual variables along the diagonal of the matrix.
+
+How can a heatmap be used to understand correlation in a data set?
+Heatmap:
+Colors represent correlation strength: Warmer colors (red) = strong positive, cooler colors (blue) = strong negative.   
+Diagonal: Perfect correlation (1).
+Darkest cells: Strongest correlations.
+Patterns: Identify groups of highly correlated variables.   
+Limitations:
+Correlation ≠ Causation.   
+May not capture non-linear relationships.
+
+What is the difference between a stack bar plot and a group barplot ?
+Grouped Bar Plot:
+Comparison: Compares values across different categories.   
+Visual: Bars are grouped side-by-side for each category.   
+Stacked Bar Plot:
+Composition: Shows the breakdown of a total value into its constituent parts.   
+Visual: Bars are stacked on top of each other within each category.
+
+What are the advantages of using violin plot over a box plot?
+Violin plots offer several advantages over box plots:
+Distribution Shape: Violin plots reveal the full distribution shape, including multiple peaks (modes) and skewness, which box plots can't.   
+Density Estimation: They provide a more detailed view of the data density, showing where data points are concentrated.   
+Outlier Detection: Violin plots can help identify outliers more effectively, especially in multimodal distributions.   
+Data Comparison: They are particularly useful for comparing multiple distributions, especially when they have different shapes or multiple modes.   
+
+How does a joint plot differ from a pair plot?
+Joint Plot: Focuses on the relationship between two specific variables, often including marginal distributions.   
+Pair Plot: Visualizes the relationships between all pairs of numerical variables in a dataset, creating a matrix of plots.   
+Key Difference: Joint plot analyzes two variables, while pair plot explores relationships across multiple variables.   
+
+In what scenario would you use a pie chart and what are its limitations?
+Scenario: Use a pie chart when you have a small number of categories (ideally 3-5) and want to visually represent the proportion of each category within a whole.
+Limitations:
+Difficult comparisons: Comparing slices, especially small ones, can be challenging.
+Too many categories: Pie charts become cluttered and hard to read with many categories
+No ranking: Pie charts don't inherently show the order of categories by size.
+
+
+ 

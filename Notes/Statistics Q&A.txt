@@ -1,0 +1,267 @@
+What is data and what are the types of it?
+Ans : Data is any information that can be recorded and processed.
+Types:
+Quantitative: 
+discrete (countable)
+continuous (measurable)
+Qualitative: 
+Nominal (categories)
+Ordinal (ranked categories)
+
+Define structure data and provide two example?.
+Ans : Structured data is data organized in a predefined format, typically rows and columns, making it easy to query and analyze.
+Examples:
+Relational databases: Store data in tables with rows and columns, like customer information (name, address, phone number).
+Spreadsheets: Organize data in cells within rows and columns, commonly used for financial reports or inventory tracking.
+
+Define unstructure data and provide two example?.
+Unstructured data lacks a predefined format, making it difficult to organize and analyze.
+Examples:
+Text documents: Emails, articles, social media posts.
+Images: Photos, medical scans, satellite imagery.
+
+Explain difference between qualitative and quantitative data?.
+Qualitative Data: Descriptive, non-numerical (e.g., colors, opinions).   
+Quantitative Data: Numerical, measurable (e.g., height, temperature)
+
+What is difference between cross sectional data and time series data?
+Cross-sectional data: Collected at a single point in time.
+Time series data: Collected over a period of time. 
+
+Define continuous and discrete data with example?.
+Continuous Data: Can take on any value within a given range (e.g., height, temperature, time).
+Discrete Data: Can only take specific, separate values (e.g., number of students, shoe size).
+
+What is the difference between nominal and ordinal data?
+Nominal: Categorical data without order (e.g., colors, genders).   
+Ordinal: Categorical data with order (e.g., education levels, satisfaction ratings). 
+
+Explain the concept of population and sample in statistics?.
+Population: The entire group of interest in a study.
+Sample: A subset of the population used to represent the whole.
+
+Describe the difference between a parameter and a statistic?.
+Parameter: A numerical value describing a characteristic of a population.   
+Statistic: A numerical value describing a characteristic of a sample.   
+Key Difference: Parameters are used to describe populations, while statistics are used to estimate population parameters from sample data.
+
+What are descriptive and inferential statistics?
+Descriptive Statistics: Summarize and describe the main features of a dataset.   
+Examples: Mean, median, mode, standard deviation, histograms, bar charts.   
+Inferential Statistics: Make predictions or inferences about a population based on a sample.   
+Examples: Hypothesis testing, confidence intervals, regression analysis.   
+
+What are the measure of Central tendency?
+Mean: The average of all values in a dataset.   
+Median: The middle value when the data is ordered.   
+Mode: The most frequent value in the dataset.
+
+How is main calculated for a population and the sample?
+Population Mean:
+Formula: μ = (Σx) / N   
+Explanation:
+μ (mu) represents the population mean.   
+Σx is the sum of all the values in the population.   
+N is the total number of values in the population.   
+Sample Mean:
+Formula: x̄ = (Σx) / n   
+Explanation:
+x̄ (x-bar) represents the sample mean.   
+Σx is the sum of all the values in the sample.   
+n is the total number of values in the sample. 
+
+Explain the term mean in statistics?.
+In statistics, the mean is a measure of central tendency, often referred to as the average. It's calculated by summing all the values in a dataset and then dividing by the total number of values.
+Sensitive to outliers: If there are extreme values (outliers) in the data, the mean can be significantly influenced, potentially not accurately reflecting the center of the data.   
+
+What is median and how is it determined?
+The median is a measure of central tendency that represents the middle value in a dataset when the data is arranged in order.
+
+Explain the concept of standard deviation?.
+Standard Deviation: A Measure of Spread
+Standard deviation is a statistical measure that quantifies the amount of variation or dispersion of a set of data values around their mean. In simpler terms, it tells you how spread out the numbers are in relation to the average value.   
+Key Points:
+Measures Spread: A higher standard deviation indicates that the data points are more spread out from the mean, while a lower standard deviation suggests that they are clustered closer to the mean.   
+Calculated from Variance: Standard deviation is the square root of the variance, which is the average of the squared differences from the mean.   
+Units: Standard deviation is expressed in the same units as the original data. 
+In a normal distribution (bell curve), the standard deviation helps define the shape of the curve. A larger standard deviation results in a wider, flatter curve, while a smaller standard deviation leads to a narrower, taller curve.
+  
+What are the major of dispersion?
+The major measures of dispersion are:
+
+Range: The difference between the highest and lowest values in a dataset. (Simplest but sensitive to outliers)   
+Variance: The average of the squared differences from the mean. (Provides a measure of how spread out the data is)   
+Standard Deviation: The square root of the variance. (More interpretable than variance as it's in the same units as the data)   
+Interquartile Range (IQR): The difference between the third quartile (75th percentile) and the first quartile (25th percentile). (Less sensitive to outliers than the range)   
+These measures help to understand the variability or spread of data around a central point.   
+
+What is range in statistics and how is it calculated?
+Range is a simple measure of dispersion in statistics. It quantifies the spread of data by calculating the difference between the highest and lowest values in a dataset.
+
+Explain the concept of interquartile range?.
+Interquartile Range (IQR) is a measure of statistical dispersion, similar to range and standard deviation, but it's less sensitive to outliers (extreme values).
+Quartiles: The IQR focuses on the middle 50% of the data. It divides the data into four equal parts using quartiles:   
+Q1 (First Quartile): The value below which 25% of the data falls.   
+Q2 (Second Quartile): The median (50th percentile).   
+Q3 (Third Quartile): The value below which 75% of the data falls.   
+IQR Calculation: The IQR is simply the difference between the third quartile (Q3) and the first quartile (Q1):   
+
+What is meant by variance in statistics?
+Variance is a statistical measure that quantifies the amount of variation or dispersion of a set of data values around their mean. In simpler terms, it tells you how spread out the numbers are in relation to the average value.
+For a population:
+σ² = Σ(x - μ)² / N
+σ²: Population variance   
+x: Individual data point   
+μ: Population mean   
+N: Number of data points in the population
+For a sample:
+s² = Σ(x - x̄)² / (n - 1)
+s²: Sample variance   
+x: Individual data point
+x̄: Sample mean   
+n: Number of data points in the sample   
+
+What is meant by sample variance and how is it different from population variance?
+Both sample variance and population variance measure the spread or dispersion of data points around their mean. However, they differ in the scope of the data they represent:   
+Population Variance:
+Scope: Measures the spread of data points within an entire population.   
+Formula:
+σ² = Σ(x - μ)² / N
+where:
+σ² is the population variance   
+x is an individual data point   
+μ is the population mean   
+N is the total number of data points in the population   
+Sample Variance:
+Scope: Estimates the spread of data points within a population based on a sample (a subset of the population).   
+Formula:
+s² = Σ(x - x̄)² / (n - 1)
+where:
+s² is the sample variance   
+x is an individual data point
+x̄ is the sample mean   
+n is the total number of data points in the sample 
+Population variance uses N (population size) in the denominator, while sample variance uses (n - 1) (sample size minus 1). This (n - 1) is known as Bessel's correction and helps to correct for the bias that occurs when estimating population variance from a sample.
+
+What is Bessels correction and how is it used?
+Bessel's Correction:
+Use: In sample variance formula, use (n-1) instead of 'n' (sample size).   
+Purpose: Reduces bias in estimating population variance from a sample.   
+Reason: Accounts for the fact that sample mean is an estimate, not the true population mean.
+
+What is coefficient of variation and how is it useful?
+Coefficient of Variation (CV):
+Definition: A standardized measure of dispersion of a probability distribution or frequency distribution.   
+Formula: CV = (Standard Deviation / Mean) * 100%   
+Usefulness:
+Unitless Comparison: Allows comparison of variability between datasets with different units or scales.   
+
+What is mean by term percentile in statistics?
+Percentile:
+Meaning: The percentage of values in a dataset that fall below a specific value.   
+Example: 90th percentile means you scored higher than 90% of people.   
+Use: Compares your position relative to others in a dataset.   
+
+What is an outlier, how can it affect data analysis?
+Definition: A data point significantly different from other observations in a dataset.   
+Impact: Can skew statistical measures (mean, standard deviation), misleading analysis.
+Dealing with Outliers:
+Identify: Visual methods (box plots), statistical tests (z-score, IQR).   
+Handle:
+Remove: If clearly erroneous (data entry error).
+Transform: Apply transformations (log, square root) to reduce their impact.   
+Model: Use robust methods less sensitive to outliers (e.g., median instead of mean)   
+
+What is a box plot and what does it represent?
+Box Plot (Box and Whisker Plot):
+Represents:
+Distribution of data: Shows how data points are spread across a range.   
+Key statistics: Visualizes the median, quartiles (Q1, Q3), and potential outliers. 
+
+What is a probability distribution?
+A probability distribution describes the likelihood of different outcomes in a random experiment.
+
+Explain the difference between a discrete and continuous probability distribution?
+Discrete Probability Distribution:
+Deals with countable outcomes, such as the number of heads in coin flips or the number of defects in a product batch.   
+Possible values are often integers.   
+Represented by a probability mass function (PMF).
+Continuous Probability Distribution:
+Deals with uncountable outcomes, such as time or weight.   
+Possible values are within a range.
+Represented by a probability density function (PDF).   
+
+what is skewness?
+Skewness measures the asymmetry of a distribution.It indicates whether the data points are skewed to the left (negative skew) or right (positive skew) relative to the mean.
+
+Define a normal distribution ?
+A normal distribution, also known as a Gaussian distribution, is a continuous probability distribution that is symmetrical around the mean, showing that data near the mean are more frequent in occurrence than data far from the mean .It appears as a "bell curve" when graphed.
+
+What is 68 95 99.7 rule?
+The 68-95-99.7 rule states that in a normal distribution:   
+68% of the data falls within one standard deviation of the mean.   
+95% falls within two standard deviations.   
+99.7% falls within three standard deviations.
+
+what is a z-score?
+A z-score is a statistical measurement that describes a value's relationship to the mean of a group of values. It's measured in terms of standard deviations from the mean.
+
+What is the purpose of central limit theorem?
+The central limit theorem (CLT) is a fundamental concept in statistics that has several key purposes:   
+Normal Approximation: It states that the distribution of sample means from a population will approach a normal distribution, regardless of the underlying distribution of the population, as the sample size increases. This allows us to use the well-known properties of the normal distribution to make inferences about the population mean.   
+Statistical Inference: The CLT is crucial for various statistical tests and confidence intervals. It enables us to estimate population parameters, such as the mean, with a certain level of confidence, even when we don't know the true population distribution.   
+Hypothesis Testing: The CLT is used in hypothesis testing to determine if a sample mean is significantly different from a hypothesized population mean. It allows us to calculate p-values and make decisions about whether to reject or fail to reject the null hypothesis.   
+Sampling Distributions: The CLT helps us understand the behavior of sample means. It tells us that the distribution of sample means will be centered around the population mean and will have a smaller variance than the population distribution. This knowledge is essential for designing and interpreting sampling studies.   
+
+What is covariance?
+Covariance is a statistical measure that indicates the direction of the linear relationship between two random variables. It assesses how much two variables change together.
+
+What is correlation?
+Correlation is a statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate).It's a common tool for describing simple relationships without making a statement about cause and effect.
+
+Explain the difference between covariance and correlation ?
+Covariance:
+Measures the direction of the linear relationship between two variables.   
+Can be positive, negative, or zero.   
+Affected by scale: Changing the units of measurement for one or both variables changes the covariance.   
+No standardized range: Covariance values can range from negative infinity to positive infinity.   
+Correlation:
+Measures both the direction and strength of the linear relationship between two variables.
+Ranges from -1 to 1:
+-1 indicates a perfect negative correlation (as one variable increases, the other decreases).
+0 indicates no correlation (no linear relationship).   
+1 indicates a perfect positive correlation (as one variable increases, the other increases).   
+Not affected by scale: Correlation is a standardized measure and remains the same regardless of the units of measurement. 
+
+What is the purpose of using a histogram?
+Histograms are used to:
+Visualize data distribution: They show how frequently data points fall within specific ranges or intervals.   
+Identify patterns: Histograms can reveal the shape of the distribution (e.g., normal, skewed, uniform), identify outliers, and detect multiple peaks (modes).   
+Understand central tendency and spread: They help visualize the mean, median, and how spread out the data is.   
+Compare datasets: Histograms can be used to compare the distributions of different datasets.   
+Data exploration: They are a crucial tool in exploratory data analysis to gain initial insights into the data.   
+
+What is the purpose of using a histogram ?
+Visualize data distribution: They show how frequently data points fall within specific ranges or intervals.   
+Identify patterns: Histograms can reveal the shape of the distribution (e.g., normal, skewed, uniform), identify outliers, and detect multiple peaks (modes).   
+Understand central tendency and spread: They help visualize the mean, median, and how spread out the data is.   
+Compare datasets: Histograms can be used to compare the distributions of different datasets.   
+Data exploration: They are a crucial tool in exploratory data analysis to gain initial insights into the data.   
+
+What does positive skewness indicate about a dataset?
+Positive skewness indicates that a dataset has a longer tail on the right side, meaning there are more extreme values on the higher end of the distribution. In other words, the majority of the data points are clustered towards the left side, with a few outliers extending far to the right.
+
+What is confidence interval and how is it used ?
+A confidence interval is a range of values that is likely to contain the true value of a population parameter. It's used to express the uncertainty associated with a sample statistic. For example, a 95% confidence interval for the mean of a population would mean that if we were to repeat the sampling process many times, 95% of the intervals we construct would contain the true population mean.
+
+How does central limit theorem relate to confidence interval?
+The Central Limit Theorem (CLT) is the foundation upon which confidence intervals are built. Here's how they relate:   
+CLT and Normal Distribution: The CLT states that the distribution of sample means from any population will approach a normal distribution as the sample size increases. This is crucial because it allows us to use the well-known properties of the normal distribution to construct confidence intervals.   
+Confidence Interval Construction: Confidence intervals are typically calculated using the sample mean, standard deviation, and the appropriate z-score or t-score (depending on sample size and whether the population standard deviation is known). The CLT ensures that these calculations are valid, especially when dealing with larger sample sizes.   
+Interpretation: The CLT helps us interpret confidence intervals correctly. It tells us that if we were to repeatedly draw samples from the population and construct confidence intervals for each sample, a certain percentage of those intervals (e.g., 95%) would contain the true population mean.  
+
+what are full forms of PDF and PPF in 'scippy.stats.norm'?
+PDF: Probability Density Function
+PPF: Percent Point Function (also known as the quantile function or inverse CDF) 
+    
+
